@@ -35,3 +35,11 @@ val message = "123 456 789"
 val words = message.split(" ")      // split の第一引数に区切り文字を指定する
 println(words)                      // [123, 456, 789]
 ```
+
+### コレクションの要素を区切り文字で連結
+
+```Kotlin
+val words = listOf(1, 2, 3)
+val message = words.joinToString("/")
+println(message)                            // 1/2/3
+```
