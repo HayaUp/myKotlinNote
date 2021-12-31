@@ -25,3 +25,13 @@ logs.add(200)                       // 要素を追加できる
 println(logs)                       // [100, 200]
 println(logs.size)                  // 2, コレクションの大きさが分かる
 ```
+
+## 文字列の操作
+
+### 区切り文字による分割
+
+```Kotlin
+val message = "123 456 789"
+val words = message.split(" ")      // split の第一引数に区切り文字を指定する
+println(words)                      // [123, 456, 789]
+```
