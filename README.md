@@ -5,7 +5,7 @@ Kotlinの書き方まとめ
 
 - `val`と`var`がある
 
-```
+```Kotlin
 val a = 1       // 値などの指定は1回のみ
 a = 2           // Error
 
@@ -19,7 +19,7 @@ b = 4
 - 変更不可`listOf`
 - 変更可能`mutableListOf`
 
-```
+```Kotlin
 val logs = mutableListOf<Int>(100)  // 初期値があれば型指定は不要
 logs.add(200)                       // 要素を追加できる
 println(logs)                       // [100, 200]
