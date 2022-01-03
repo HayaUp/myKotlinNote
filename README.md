@@ -64,6 +64,30 @@ println(logs)                       // [100, 200]
 println(logs.size)                  // 2, コレクションの大きさが分かる
 ```
 
+### 反復
+
+- `for`と`forEach`がある
+
+```Kotlin
+val nList = listOf(100, 200, 300)
+
+for (element in nList) {
+    println(element)
+}
+
+nList.forEach {
+    println(it)
+}
+```
+
+- forEach に index を使いたい場合
+
+```Kotlin
+val nList = listOf(100, 200, 300)
+
+nList.forEachIndexed {index, value -> println("[$index] = $value")}
+```
+
 ## 文字列の操作
 
 ### 区切り文字による分割
