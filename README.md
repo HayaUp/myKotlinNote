@@ -31,6 +31,17 @@ val text = textArray.joinToString("/")
 println(text)                                   // "123/456/789"
 ```
 
+### 文字列検索
+
+```Kotlin
+val text = "aAbBcC"
+println(text.indexOf("a"))      // 0
+println(text.indexOf("A"))      // 1
+println(text.indexOf("c"))      // 4
+println(text.indexOf("C"))      // 5
+println(text.indexOf("Z"))      // -1
+```
+
 ## コレクション`List`
 
 - Listは2種類ある
