@@ -13,6 +13,16 @@ var b = 3       // 値などの指定は何回でも良い
 b = 4
 ```
 
+## 文字列型`String`
+
+### 区切り文字による分割
+
+```Kotlin
+val text = "123 456 789"
+val textArray = text.split(" "))        // List<String>
+println(textArray)                      // [123, 456, 789]
+```
+
 ## コレクション`List`
 
 - Listは2種類ある
