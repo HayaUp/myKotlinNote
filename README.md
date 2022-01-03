@@ -88,6 +88,14 @@ val nList = listOf(100, 200, 300)
 nList.forEachIndexed {index, value -> println("[$index] = $value")}
 ```
 
+### 指定した条件の要素を数える
+
+```Kotlin
+val nList = listOf(100, 200, 300)
+println(nList.count())                  // 3, 条件を指定しない場合、要素数を返す
+println(nList.count {it > 100})         // 2
+```
+
 ## 文字列の操作
 
 ### 区切り文字による分割
