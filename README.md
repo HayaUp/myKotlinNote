@@ -1,6 +1,17 @@
 # myKotlinNote
 Kotlinの書き方まとめ
 
+## IntelliJ EDEA Community Edition 2021.3
+
+### ステップイン・オーバー
+
+- ステップイン
+    - F7
+- ステップオーバー
+    - F8
+- 参考
+    - https://pleiades.io/help/idea/stepping-through-the-program.html
+
 ## 変数の定義
 
 - `val`と`var`がある
