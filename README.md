@@ -42,6 +42,15 @@ println(text.indexOf("C"))      // 5
 println(text.indexOf("Z"))      // -1
 ```
 
+### 指定した文字列を含むか
+
+```Kotlin
+val text = "aAbBcC"
+println(text.contains("b"))     // true
+println(text.contains("bB"))    // true
+println(text.contains("Z"))     // false
+```
+
 ## コレクション`List`
 
 - Listは2種類ある
