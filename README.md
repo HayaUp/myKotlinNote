@@ -96,6 +96,13 @@ println(nList.count())                  // 3, 条件を指定しない場合、�
 println(nList.count {it > 100})         // 2
 ```
 
+### 指定した条件の要素を取得する
+
+```Kotlin
+val nList = listOf(100, 200, 300)
+println(nList.filter {it > 100})        // [200, 300]
+```
+
 ## 文字列の操作
 
 ### 区切り文字による分割
