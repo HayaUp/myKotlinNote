@@ -13,6 +13,30 @@ var b = 3       // 値などの指定は何回でも良い
 b = 4
 ```
 
+## when式
+
+```Kotlin
+val n = 1
+val message = when {
+    n == 1 -> "1だよ"
+    else -> "何だろうね？"
+}
+println(message)                // 1だよ
+
+val message2 = when(n) {
+    is Int -> "Intだよ"
+    else -> "何の型だろうね？"
+}
+println(message2)               // Intだよ
+
+val r = 100
+val message3 = when(r) {
+    in 1 .. 200 -> "1～200 の値だね"
+    else -> "測定不能"
+}
+println(message3)               // 1～200 の値だね
+```
+
 ## 文字列型`String`
 
 ### 区切り文字による分割
