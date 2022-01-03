@@ -23,6 +23,14 @@ val textArray = text.split(" "))        // List<String>
 println(textArray)                      // [123, 456, 789]
 ```
 
+### 区切り文字による連結
+
+```Kotlin
+val textArray = listOf("123", "456", "789")
+val text = textArray.joinToString("/")
+println(text)                                   // "123/456/789"
+```
+
 ## コレクション`List`
 
 - Listは2種類ある
