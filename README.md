@@ -88,6 +88,18 @@ println(logs)                       // [100, 200]
 println(logs.size)                  // 2, コレクションの大きさが分かる
 ```
 
+## コレクション`map`
+
+### 反復
+
+```Kotlin
+val m = mapOf("a" to 100, "b" to 200, "c" to 300)
+
+for ((key, value) in m) {
+    println("$key = $value")
+}
+```
+
 ### 反復
 
 - `for`と`forEach`がある
